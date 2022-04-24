@@ -7,6 +7,10 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
     <ImageView
         android:layout_width="200dp"
         android:layout_height="200dp"
@@ -15,32 +19,45 @@
         />
 
     <EditText
+        android:id="@+id/ed_user"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Usuario"
+        android:hint="@string/et_user"
+        android:textSize="25sp"
         android:inputType="text"
-        />
+        android:autofillHints="" />
 
     <EditText
+        android:id="@+id/ed_pass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Constraseña"
+        android:hint="@string/et_pass"
         android:layout_gravity="center"
+        android:textSize="25sp"
         android:inputType="textPassword"
-        />
+        android:autofillHints="" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Iniciar"
+        android:text="@string/btn_start"
         android:layout_gravity="center"
+        android:textSize="25sp"
         />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
 
     <TextView
         android:id="@+id/tv_registrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Registrar"
+        android:text="@string/tv_reg"
         android:layout_gravity="center"
         android:textSize="25sp"
         />

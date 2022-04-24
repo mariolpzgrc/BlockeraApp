@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Blockera "Hnos. López"</string>
+    <string name="et_user">Usuario</string>
+    <string name="et_pass">Contraseña</string>
+    <string name="btn_start">Iniciar</string>
+    <string name="tv_reg">Registrar</string>
+    <string name="tv_title">Registro de Usuario"</string>
+    <string name="et_nameUser">Nombre(s)</string>
+    <string name="et_apePUser">Apellido Paterno</string>
+    <string name="et_apeMUser">Apellido Materno</string>
+    <string name="et_age">Edad</string>
+    <string name="btn_ok">Aceptar</string>
+    <string name="tv_welcome">Bienvenido</string>
+    <string name="tv_nameUser">Nombre(s): </string>
+    <string name="tv_apePUser">Apellido Paterno: </string>
+    <string name="tv_apeMUser">Apellido Materno: </string>
+    <string name="tv_age">Edad: </string>
 </resources>
